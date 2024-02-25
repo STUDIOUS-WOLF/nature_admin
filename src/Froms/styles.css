@@ -1,0 +1,122 @@
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.form-file {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.form-file {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+.form-file {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 200px; /* Center the content vertically */
+  overflow: hidden; /* Hide overflowing content */
+  box-sizing: border-box;
+}
+
+.form-file input {
+  display: none; /* Hide the actual file input */
+}
+
+.form-file-label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+.uploaded-image {
+  max-width: 200px; /* Set the maximum width */
+  max-height: 200px; /* Set the maximum height */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 10px; /* Add some space above the image */
+}
