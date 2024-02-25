@@ -15,7 +15,18 @@ const firebaseConfig = {
   messagingSenderId: process.env.MESSAGING_ID,
   appId: process.env.APP_ID,
 };
+import "firebase/storage";
 
+export const FIREBASE_CLIENT = firebase.default;
+
+if (FIREBASE_CLIENT.apps.length === 0) {
+  FIREBASE_CLIENT.initializeApp(firebaseConfig);
+}
+export const STORAGE_CLIENT = FIREBASE_CLIENT.app().storage(
+  process.env.NODE_ENV === "production"
+    ? process.env.STORAGE_BUCKET
+    : process.env.STORAGE_BUCKET
+);
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 const storage = getStorage(app);
